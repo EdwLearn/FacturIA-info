@@ -246,7 +246,7 @@ export default function LandingPage() {
               </div>
 
               {/* CTA Buttons */}
-                <a
+              <a
                 href="https://wa.me/573017801940" 
                 target="_blank"
                 rel="noopener noreferrer"
