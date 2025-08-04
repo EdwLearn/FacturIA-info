@@ -120,10 +120,7 @@ export default function LandingPage() {
     cta: "Empezar Hoy",
     popular: true,
   },
-]
-
-
-
+];
 
   return (
     <div className="min-h-screen bg-white">
