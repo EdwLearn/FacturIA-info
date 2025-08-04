@@ -237,7 +237,7 @@ export default function LandingPage() {
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
                   <Clock className="w-4 h-4 text-blue-600" />
-                  <span className="text-sm font-medium">15 min → 2 min por factura</span>
+                  <span className="text-sm font-medium">2 horas → 10 min por factura</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
                   <CheckCircle className="w-4 h-4 text-green-600" />
