@@ -93,65 +93,36 @@ export default function LandingPage() {
 
   const pricing = [
   {
-    name: "Demo 15 días",
+    name: "Prueba Gratis",
     price: "Gratis",
-    period: "15 días",
-    description: "Acceso completo por tiempo limitado",
+    period: "/15 días",
+    description: "Explora todas las funciones sin compromiso.",
     features: [
       "Facturación ilimitada (durante demo)",
+      "Dashboard completo",
       "Alertas de inventario",
-      "Reportes inteligentes",
       "Soporte por WhatsApp",
-      "Acceso total al dashboard",
     ],
-    cta: "Probar Gratis",
+    cta: "Probar Ahora",
     popular: false,
   },
   {
-    name: "Pago por uso",
-    price: "$1.500",
-    period: "/factura procesada",
-    description: "Paga solo lo que usas",
-    features: [
-      "Sin mensualidad",
-      "Dashboard en tiempo real",
-      "Historial de facturación",
-      "Soporte por email",
-    ],
-    cta: "Empezar Ahora",
-    popular: false,
-  },
-  {
-    name: "Negocios",
+    name: "Plan Único",
     price: "$250.000",
     period: "/mes",
-    description: "Para quienes necesitan control total",
+    description: "Precio base + uso según facturación",
     features: [
-      "Hasta 500 facturas/mes",
-      "Reportes de inventario inteligentes",
-      "Alertas automáticas (stock bajo, producto lento)",
-      "API y acceso multiusuario",
-      "Soporte prioritario y WhatsApp",
+      "Dashboard y reportes inteligentes",
+      "Alertas automáticas",
+      "Soporte y mejoras continuas",
+      "$1.500 por factura procesada",
     ],
-    cta: "Comenzar Plan",
+    cta: "Empezar Hoy",
     popular: true,
   },
-  {
-    name: "Empresarial",
-    price: "Personalizado",
-    period: "",
-    description: "A medida para empresas grandes",
-    features: [
-      "Facturación ilimitada",
-      "Consultoría personalizada",
-      "Integración con ERP",
-      "SLA garantizado y soporte 24/7",
-      "Análisis predictivo de ventas",
-    ],
-    cta: "Habla con Ventas",
-    popular: false,
-  },
 ]
+
+
 
 
   return (
