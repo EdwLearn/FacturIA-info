@@ -79,48 +79,48 @@ export default function LandingPage() {
     },
     {
       name: "Alejandro Giraldo",
-      company: "Melos Paisas",
+      company: "Melos Paisas - Pailitas (César)",
       text: "La integración con nuestro POS fue perfecta. El inventario se actualiza automáticamente.",
       rating: 5,
     },
     {
       name: "Julian Quiceno",
-      company: "Almacén El Rey",
+      company: "Almacén El Rey - Medellín (Antioquia)",
       text: "Increíble precisión en la extracción de datos. Ya no tenemos errores de digitación.",
       rating: 5,
     },
   ]
 
   const pricing = [
-  {
-    name: "Prueba Gratis",
-    price: "Gratis",
-    period: "/15 días",
-    description: "Explora todas las funciones sin compromiso.",
-    features: [
-      "Facturación ilimitada (durante demo)",
-      "Dashboard completo",
-      "Alertas de inventario",
-      "Soporte por WhatsApp",
-    ],
-    cta: "Probar Ahora",
-    popular: false,
-  },
-  {
-    name: "Plan Único",
-    price: "$250.000",
-    period: "/mes",
-    description: "Precio base + uso según facturación",
-    features: [
-      "Dashboard y reportes inteligentes",
-      "Alertas automáticas",
-      "Soporte y mejoras continuas",
-      "$1.500 por factura procesada",
-    ],
-    cta: "Empezar Hoy",
-    popular: true,
-  },
-];
+    {
+      name: "Prueba Gratis",
+      price: "Gratis",
+      period: "/15 días",
+      description: "Explora todas las funciones sin compromiso.",
+      features: [
+        "Facturación ilimitada (durante demo)",
+        "Dashboard completo",
+        "Alertas de inventario",
+        "Soporte por WhatsApp",
+      ],
+      cta: "Probar Ahora",
+      popular: false,
+    },
+    {
+      name: "Plan Único",
+      price: "$250.000",
+      period: "/mes",
+      description: "Precio base + uso según facturación",
+      features: [
+        "Dashboard y reportes inteligentes",
+        "Alertas automáticas",
+        "Soporte y mejoras continuas",
+        "$1.500 por factura procesada",
+      ],
+      cta: "Empezar Hoy",
+      popular: true,
+    },
+  ]
 
   return (
     <div className="min-h-screen bg-white">
