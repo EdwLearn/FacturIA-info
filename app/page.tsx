@@ -1,9 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 import {
   Brain,
   Plug,
@@ -169,14 +166,13 @@ export default function LandingPage() {
 
             {/* CTA Buttons */}
             <div className="hidden md:flex items-center gap-3">
-              <Link href="/login">
-                <Button variant="outline" className="bg-transparent">
-                  Iniciar Sesión
-                </Button>
-              </Link>
-              <Link href="/dashboard">
-                <Button className="bg-blue-600 hover:bg-blue-700">Prueba Gratuita</Button>
-              </Link>
+              <a
+                href="https://wa.me/573017801940" 
+                target="_blank"
+                rel="noopener noreferrer"
+              ><Button className="bg-blue-600 hover:bg-blue-700">Probar Demo</Button>
+              </a>
+                
             </div>
 
             {/* Mobile Menu Button */}
@@ -206,14 +202,12 @@ export default function LandingPage() {
                   Contacto
                 </Link>
                 <div className="flex flex-col gap-2 pt-4 border-t border-gray-100">
-                  <Link href="/login">
-                    <Button variant="outline" className="w-full bg-transparent">
-                      Iniciar Sesión
-                    </Button>
-                  </Link>
-                  <Link href="/dashboard">
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700">Prueba Gratuita</Button>
-                  </Link>
+                  <a
+                    href="https://wa.me/573017801940" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><Button className="bg-blue-600 hover:bg-blue-700">Probar Demo</Button>
+                  </a>
                 </div>
               </div>
             </div>
