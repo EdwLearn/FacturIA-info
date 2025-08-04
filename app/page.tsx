@@ -72,19 +72,19 @@ export default function LandingPage() {
 
   const testimonials = [
     {
-      name: "María González",
-      company: "Almacén Medellín JA",
+      name: "Magda Martinez",
+      company: "Almacén Medellín - Chinú (Córdoba)",
       text: "FacturIA redujo el tiempo de procesamiento de facturas en un 90%. Ahora puedo enfocarme en atender clientes.",
       rating: 5,
     },
     {
-      name: "Carlos Rodríguez",
+      name: "Alejandro Giraldo",
       company: "Melos Paisas",
       text: "La integración con nuestro POS fue perfecta. El inventario se actualiza automáticamente.",
       rating: 5,
     },
     {
-      name: "Ana Martínez",
+      name: "Julian Quiceno",
       company: "Almacén El Rey",
       text: "Increíble precisión en la extracción de datos. Ya no tenemos errores de digitación.",
       rating: 5,
@@ -92,46 +92,67 @@ export default function LandingPage() {
   ]
 
   const pricing = [
-    {
-      name: "Básico",
-      price: "Gratis",
-      period: "",
-      description: "Perfecto para empezar",
-      features: ["5 facturas/mes", "Procesamiento básico", "Soporte por email", "Dashboard básico"],
-      cta: "Comenzar Gratis",
-      popular: false,
-    },
-    {
-      name: "Pro",
-      price: "$49,000",
-      period: "/mes",
-      description: "Para negocios en crecimiento",
-      features: [
-        "Hasta 50 facturas/mes",
-        "Integraciones incluidas",
-        "Soporte prioritario",
-        "Reportes avanzados",
-        "API access",
-      ],
-      cta: "Prueba Gratuita",
-      popular: true,
-    },
-    {
-      name: "Enterprise",
-      price: "Personalizado",
-      period: "",
-      description: "Para grandes volúmenes",
-      features: [
-        "Facturas ilimitadas",
-        "Soporte 24/7",
-        "Integraciones personalizadas",
-        "Gerente de cuenta dedicado",
-        "SLA garantizado",
-      ],
-      cta: "Contactar Ventas",
-      popular: false,
-    },
-  ]
+  {
+    name: "Demo 15 días",
+    price: "Gratis",
+    period: "15 días",
+    description: "Acceso completo por tiempo limitado",
+    features: [
+      "Facturación ilimitada (durante demo)",
+      "Alertas de inventario",
+      "Reportes inteligentes",
+      "Soporte por WhatsApp",
+      "Acceso total al dashboard",
+    ],
+    cta: "Probar Gratis",
+    popular: false,
+  },
+  {
+    name: "Pago por uso",
+    price: "$1.500",
+    period: "/factura procesada",
+    description: "Paga solo lo que usas",
+    features: [
+      "Sin mensualidad",
+      "Dashboard en tiempo real",
+      "Historial de facturación",
+      "Soporte por email",
+    ],
+    cta: "Empezar Ahora",
+    popular: false,
+  },
+  {
+    name: "Negocios",
+    price: "$250.000",
+    period: "/mes",
+    description: "Para quienes necesitan control total",
+    features: [
+      "Hasta 500 facturas/mes",
+      "Reportes de inventario inteligentes",
+      "Alertas automáticas (stock bajo, producto lento)",
+      "API y acceso multiusuario",
+      "Soporte prioritario y WhatsApp",
+    ],
+    cta: "Comenzar Plan",
+    popular: true,
+  },
+  {
+    name: "Empresarial",
+    price: "Personalizado",
+    period: "",
+    description: "A medida para empresas grandes",
+    features: [
+      "Facturación ilimitada",
+      "Consultoría personalizada",
+      "Integración con ERP",
+      "SLA garantizado y soporte 24/7",
+      "Análisis predictivo de ventas",
+    ],
+    cta: "Habla con Ventas",
+    popular: false,
+  },
+]
+
 
   return (
     <div className="min-h-screen bg-white">
