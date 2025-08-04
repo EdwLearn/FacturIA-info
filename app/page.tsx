@@ -498,7 +498,7 @@ export default function LandingPage() {
                 <div className="w-3 h-2 bg-yellow-400 rounded-sm"></div>
                 <div className="w-3 h-2 bg-blue-500 rounded-sm"></div>
                 <div className="w-3 h-2 bg-red-500 rounded-sm"></div>
-                <span className="text-sm text-gray-400 ml-2">Hecho con ❤️ para el retail colombiano</span>
+                <span className="text-sm text-gray-400 ml-2">Hecho con ❤️ para el retail Colombiano</span>
               </div>
             </div>
 
@@ -514,16 +514,6 @@ export default function LandingPage() {
                 <li>
                   <Link href="#precios" className="hover:text-white transition-colors">
                     Precios
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/dashboard" className="hover:text-white transition-colors">
-                    Demo
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="hover:text-white transition-colors">
-                    API
                   </Link>
                 </li>
               </ul>
@@ -562,14 +552,14 @@ export default function LandingPage() {
               <ul className="space-y-3 text-gray-400">
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <a href="mailto:info@facturia.co" className="hover:text-white transition-colors">
+                  <a href="mailto:info.facturia@gmail.com" className="hover:text-white transition-colors">
                     info@facturia.co
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <a href="tel:+573001234567" className="hover:text-white transition-colors">
-                    +57 300 123 4567
+                  <a href="tel:+573017801940" className="hover:text-white transition-colors">
+                    +57 3017801940
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
@@ -585,6 +575,5 @@ export default function LandingPage() {
           </div>
         </div>
       </footer>
-    </div>
   )
 }
