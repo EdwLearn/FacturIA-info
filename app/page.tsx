@@ -275,13 +275,13 @@ export default function LandingPage() {
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/dashboard">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3 w-full sm:w-auto">
-                    Comenzar Prueba Gratuita
-                    <ArrowRight className="w-5 h-5 ml-2" />
-                  </Button>
-                </Link>
+                <a
+                href="https://wa.me/573017801940" 
+                target="_blank"
+                rel="noopener noreferrer"
+              ><Button className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3 w-full sm:w-auto">Comenzar Prueba Gratuita <ArrowRight className="w-5 h-5 ml-2" /></Button>
+              </a>
+
                 <Button size="lg" variant="outline" className="text-lg px-8 py-3 w-full sm:w-auto bg-transparent">
                   <Play className="w-5 h-5 mr-2" />
                   Ver Demo
@@ -492,12 +492,14 @@ export default function LandingPage() {
             Únete a cientos de retailers colombianos que ya transformaron su operación
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/dashboard">
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-3">
-                Comenzar Prueba Gratuita
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            </Link>
+           
+            <a
+                href="https://wa.me/573017801940" 
+                target="_blank"
+                rel="noopener noreferrer"
+              ><Button className="bg-white text-blue-600 hover:bg-gray-100 text-lg px-8 py-3">Comenzar Prueba Gratuita <ArrowRight className="w-5 h-5 ml-2" /></Button>
+              </a>
+
             <Button
               size="lg"
               variant="outline"
